@@ -1,0 +1,8 @@
+.SILENT:
+
+default:
+	gcc -lmraa -pthread -o lab4_part2 lab4_part2.c -lm
+	./lab4_part2
+clean:
+	rm lab4_part2
+
